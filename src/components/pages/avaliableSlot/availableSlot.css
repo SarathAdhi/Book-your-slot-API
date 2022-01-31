@@ -1,0 +1,30 @@
+.availableSlot-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.heading{
+    color: white;
+    padding-bottom: 5px;
+	border-bottom: 2px solid rgb(255, 83, 255);
+}
+.availableSlot-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr{
+    text-align: center;
+}
+td, th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}

@@ -1,0 +1,105 @@
+.bookSlot-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+.heading{
+    color: white;
+    padding-bottom: 5px;
+	border-bottom: 2px solid rgb(255, 83, 255);
+}
+.bookSlot-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th{
+    display:table-cell;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+td button{
+    display: block;
+    margin-bottom: 25px;
+}
+.info-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 50%;
+    border-radius: 20px;
+    top: 30%;
+    position: fixed;
+    color: black;
+    background-color: azure;
+}
+.confirm-slot{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.confirm-slot-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 50%;
+    border-radius: 20px;
+    top: 30%;
+    position: fixed;
+    color: black;
+    background-color: azure;
+}
+.bookSlot-list tr td button{
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: rgb(33, 248, 51);
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#cname{
+    text-align: center;
+}
+#userName{
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+.drop-btn{
+    display: none;
+    background-color: rgb(255, 0, 0);
+}
+.confirm-btn{
+    margin-top: 50px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: rgb(33, 248, 51);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.cancel-btn{
+    padding: 5px 15px;
+    background-color: rgb(255, 128, 128);
+    border: 2px solid black;
+    border-radius: 10px;
+}
